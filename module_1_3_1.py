@@ -1,6 +1,5 @@
-a = 12
-b = 1.5
-first_name = 'Python'
-name = 'Курс'
-c = (12/1.5)
-print((name),":", (first_name), 'всего задач:',(a),"," 'затрачено часов:',(b),"," 'среднее время выполнения:', ((int)(c)))
+homework = 12
+hours = 1.5
+course = 'Python'
+one_task_time = (hours / homework)
+print("Курс:", (course),"," 'всего задач:', (homework),"," 'затрачено часов:', (hours), "," 'среднее время выполнения:', (one_task_time), "часа")
